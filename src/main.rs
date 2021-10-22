@@ -4,7 +4,7 @@ use rand::Rng;
 
 fn main() {
     let secret_number = rand::thread_rng().gen_range(1..101);
-    println!("Secret number is: {0}", secret_number);
+    // println!("Secret number is: {0}", secret_number);
 
     loop {
         println!("Guess the number!");
